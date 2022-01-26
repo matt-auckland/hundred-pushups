@@ -1,0 +1,65 @@
+[
+  {
+    "week": 0,
+    "reps": [
+      {
+        "maxCount": 5,
+        "message": "Recommend week 1, easy difficulty"
+      },
+      {
+        "maxCount": 10,
+        "message": "Recommend week 1, medium difficulty"
+      },
+      {
+        "maxCount": 20,
+        "message": "Recommend week 1, hard difficulty"
+      },
+      {
+        "maxCount": null,
+        "message": "Recommend week 3, hard difficulty"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "reps": [
+      {
+        "maxCount": 16,
+        "message": "Recommend repeating week 2"
+      },
+      {
+        "maxCount": 20,
+        "message": "Recommend week 3, easy difficulty"
+      },
+      {
+        "maxCount": 25,
+        "message": "Recommend week 3, medium difficulty"
+      },
+      {
+        "maxCount": null,
+        "message": "Recommend week 3, hard difficulty"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "reps": [
+      {
+        "maxCount": 30,
+        "message": "Recommend repeating week 4"
+      },
+      {
+        "maxCount": 35,
+        "message": "Recommend week 5, easy difficulty"
+      },
+      {
+        "maxCount": 40,
+        "message": "Recommend week 5, medium difficulty"
+      },
+      {
+        "maxCount": null,
+        "message": "Recommend week 5, hard difficulty"
+      }
+    ]
+  }
+]
