@@ -7,7 +7,7 @@ export default {
       testStats,
       testResult: 0,
       selectedWeek: 0,
-      weeks: [0,2,4],
+      weeks: [0,2,4, 'Final Test'],
     }
   },
   computed: {
@@ -31,6 +31,7 @@ export default {
       <select name="date" v-model="selectedWeek">
         <option v-for="week in weeks" :value="week">
           <span v-if="week == 0">Initial Test</span>
+          <span v-else-if="isNaN(week)">{{week}}</span>
           <span v-else>Week {{week}} Test</span>
         </option>
       </select>

@@ -61,5 +61,18 @@
         "message": "Recommend week 5, hard difficulty"
       }
     ]
+  },
+  {
+    "week": "Final Test",
+    "reps": [
+      {
+        "maxCount": 99,
+        "message": "Recommend repeating week 5 or 6"
+      },
+      {
+        "maxCount": null,
+        "message": "Congrats you've achieved 100+ push ups!"
+      }
+    ]
   }
 ]

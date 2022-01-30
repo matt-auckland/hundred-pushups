@@ -48,7 +48,8 @@ export default {
       }, 1000)
     },
     resetTimer() {
-      clearInterval(this.timerInterval)
+      clearInterval(this.timerInterval);
+      this.timerInterval = null;
       this.timerCount = this.selectedEx.rest;
     },
     soundAlarm() {
